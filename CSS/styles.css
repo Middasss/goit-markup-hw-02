@@ -1,0 +1,237 @@
+:root{
+--main-color: #212121;
+--accent-color: #2196F3;
+--nav-color: #757575;
+--btn-bg-color: #F5F4FA;
+}
+
+body{
+font-family: 'Raleway',
+sans-serif;
+font-family: 'Roboto',
+sans-serif;
+}
+.list{
+list-style: none;
+}
+
+/* bar&logo*/
+
+.top-bar{
+position: absolute;
+width: 1600px;
+height: 80px;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+}
+
+.logo{
+color: black;
+font-family: 'Raleway';
+position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em; 
+text-decoration: none;
+}
+
+span{
+color: var(--accent-color);
+}
+
+/*site nav*/
+
+.site-nav a:focus,
+.site-nav a:hover {
+color: var(--accent-color);
+}
+
+.site-studio{
+position: absolute;
+width: 49px;
+height: 16px;
+left: 453px;
+top: 32px;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: var(--main-color);
+text-decoration: none;
+}
+
+.site-portfolio{
+position: absolute;
+width: 77px;
+height: 16px;
+left: 552px;
+top: 32px;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+
+.site-contacts{
+position: absolute;
+width: 68px;
+height: 16px;
+left: 679px;
+top: 32px;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: var(--main-color);
+text-decoration: none;
+}
+
+.line{
+position: absolute;
+width: 1600px;
+height: 0px;
+left: 0px;
+top: 80px;
+border: 1px solid #ECECEC;
+}
+
+/*auth-nav list*/
+
+.auth-nav a{
+    color: var(--nav-color);
+}
+
+.auth-nav a:focus,
+.auth-nav a:hover{
+color: var(--accent-color);
+}
+
+.auth-mail{
+position: absolute;
+width: 135px;
+height: 16px;
+left: 1078px;
+top: 32px;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+.auth-number{
+position: absolute;
+width: 122px;
+height: 16px;
+left: 1263px;
+top: 32px;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+
+/*buttons*/
+
+.btn{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+position: absolute;
+margin-top: 174px;
+margin-left: 495px;
+}
+.btn-all{
+font-style: medium;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+padding: 6, 22px;
+margin-right: 8px;
+background: var(--btn-bg-color);
+border-radius: 4px;
+border-style: hidden;
+width: 73px;
+height: 38px;
+}
+.btn-site{
+font-style: medium;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+padding: 6, 22px;
+margin-right: 8px;
+background: var(--btn-bg-color);
+border-radius: 4px;
+border-style: hidden;
+width: 128px;
+height: 38px;
+}
+.btn-app{
+font-style: medium;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+padding: 6, 22px;
+margin-right: 8px;
+background: var(--btn-bg-color);
+border-radius: 4px;
+border-style: hidden;
+width: 145px;
+height: 38px;
+}
+.btn-design{
+font-style: medium;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+padding: 6, 22px;
+margin-right: 8px;
+background: var(--btn-bg-color);
+border-radius: 4px;
+border-style: hidden;
+width: 103px;
+height: 38px;
+}
+.btn-marketing{
+font-style: medium;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+padding: 6, 22px;
+margin-right: 8px;
+background: var(--btn-bg-color);
+border-radius: 4px;
+border-style: hidden;
+width: 130px;
+height: 38px;
+}
+
+.btn button:focus,
+.btn button:hover {
+background-color: var(--accent-color);
+color: var(--btn-bg-color);
+cursor: pointer;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+0px 1px 2px rgba(0, 0, 0, 0.08),
+0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+/*photo blocks*/
+
+
+
+/*footer bar*/
+
