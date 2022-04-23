@@ -3,6 +3,7 @@
 --accent-color: #2196F3;
 --nav-color: #757575;
 --btn-bg-color: #F5F4FA;
+--bckground-color:#FFFFFF;
 }
 
 body{
@@ -23,11 +24,11 @@ width: 1600px;
 height: 80px;
 left: 0px;
 top: 0px;
-background: #FFFFFF;
+background: var(--bckground-color)
 }
 
 .logo{
-color: black;
+color: var(--main-color)
 font-family: 'Raleway';
 position: absolute;
 width: 145px;
@@ -36,12 +37,12 @@ left: 215px;
 top: 24px;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.2;
 letter-spacing: 0.03em; 
 text-decoration: none;
 }
 
-span{
+.blue-color{
 color: var(--accent-color);
 }
 
@@ -61,7 +62,7 @@ top: 32px;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.1;
 letter-spacing: 0.02em;
 color: var(--main-color);
 text-decoration: none;
@@ -76,8 +77,9 @@ top: 32px;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.1;
 letter-spacing: 0.02em;
+color: var(--main-color);
 text-decoration: none;
 }
 
@@ -90,7 +92,7 @@ top: 32px;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.1;
 letter-spacing: 0.02em;
 color: var(--main-color);
 text-decoration: none;
@@ -125,7 +127,7 @@ top: 32px;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.1;
 letter-spacing: 0.02em;
 text-decoration: none;
 }
@@ -138,9 +140,13 @@ top: 32px;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.1;
 letter-spacing: 0.02em;
 text-decoration: none;
+}
+
+.hidden{
+    visibility: hidden;
 }
 
 /*buttons*/
