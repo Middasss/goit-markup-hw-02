@@ -28,24 +28,21 @@ list-style: none;
 text-decoration: none;
 }
 
-/*studio css*/
-
-.site-studio {
-font-style: normal;
+.nav {
 font-weight: 500;
 font-size: 14px;
-line-height: 1.1;
+line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--main-color);
-text-decoration: none;
 }
+
 .box{
 background-color: var(--box-color)
 }
+
 .box-title{
 color: var(--bckground-color);
 font-family: var(--primaly-font-family);
-font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -59,66 +56,30 @@ letter-spacing: 0.06em;
 background-color: var(--accent-color);
 color: var(--bckground-color);
 font-family: var(--primaly-font-family);
-font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
-text-decoration: none;
-}
-
-.button-text:hover,
-.button-text:focus{
 cursor: pointer;
 }
 
 .benefits-title {
-font-family: var(--primaly-font-family);
-font-style: normal;
-font-weight: 700;
 font-size: 14px;
-line-height: 1.1;
-letter-spacing: 0.03em;
+line-height: 1.14;
+text-transform: uppercase;
 color: var(--main-color);
 }
 
 .benefits-text {
-font-family: var(--primaly-font-family);
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.1;
-letter-spacing: 0.03em;
+line-height: 1.71;
 color: var(--nav-color);
 }
 
-.site-portfolio {
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.1;
-letter-spacing: 0.02em;
-color: var(--main-color);
-text-decoration: none;
-}
-.title-working{
-font-family: var(--primaly-font-family);
-font-style: normal;
-font-weight: 700;
+.section-title{
 font-size: 36px;
-line-height: 1.2;
-letter-spacing: 0.03em;
+line-height: 1.16;
 color: var(--main-color);
 }
 
-.team{
-font-family: var(--primaly-font-family);
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.2;
-letter-spacing: 0.03em;
-color: var(--main-color);
-}
 .team-title{
 font-family: var(--primaly-font-family);
 font-style: normal;
@@ -128,11 +89,8 @@ line-height: 1.1;
 letter-spacing: 0.03em;
 color: var(--main-color);
 }
+
 .team-text{
-font-family: var(--primaly-font-family);
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
 line-height: 1.1;
 letter-spacing: 0.03em;
 color: var(--nav-color);
@@ -140,73 +98,56 @@ color: var(--nav-color);
 
 /* bar&logo*/
 
-.logo{
+.logo-header{
 color: var(--main-color);
 font-family: var(--secondary-font-family);
-font-weight: 700;
 font-size: 26px;
 line-height: 1.2;
 letter-spacing: 0.03em; 
-text-decoration: none;
 }
 
 .blue-color{
 color: var(--accent-color);
 }
 
-/*site nav*/
+/*header*/
 
-.site-nav a:focus,
-.site-nav a:hover {
+.header-nav a:focus,
+.header-nav a:hover,
+.current {
 color: var(--accent-color);
 }
 
-.site-portfolio{
+.nav{
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 1.1;
+line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--main-color);
-text-decoration: none;
 }
 
-.site-contacts{
+.nav a:focus,
+.nav a:hover,
+.current
+{
+color: var(--accent-color);
+}
+
+.contact-header {
+font-family: var(--primaly-font-family);
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
 font-size: 14px;
-line-height: 1.1;
-letter-spacing: 0.02em;
-color: var(--main-color);
-text-decoration: none;
-}
-
-/*auth-nav list*/
-
-.auth-nav a{
+line-height: 1.71;
+letter-spacing: 0.03em;
 color: var(--nav-color);
 }
 
-.auth-nav a:focus,
-.auth-nav a:hover{
+.contact-header:focus,
+.contact-header:hover,
+.contact-header:focus {
 color: var(--accent-color);
-}
-
-.auth-mail{
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.1;
-letter-spacing: 0.02em;
-text-decoration: none;
-}
-.auth-number{
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.1;
-letter-spacing: 0.02em;
-text-decoration: none;
 }
 
 .hide{
@@ -215,44 +156,11 @@ display: none;
 
 /*buttons*/
 
-.btn-all{
-font-style: medium;
-font-weight: 500;
+.portfolio-btn.current,
+.portfolio-btn:focus,
+.portfolio-btn:hover{
 font-size: 16px;
-line-height: 26px;
-background: var(--btn-bg-color);
-}
-.btn-site{
-font-style: medium;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-background: var(--btn-bg-color);
-}
-.btn-app{
-font-style: medium;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-background: var(--btn-bg-color);
-}
-.btn-design{
-font-style: medium;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-background: var(--btn-bg-color);
-}
-.btn-marketing{
-font-style: medium;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-background: var(--btn-bg-color);
-}
-
-.btn button:focus,
-.btn button:hover {
+line-height: 1.62;
 background-color: var(--accent-color);
 color: var(--btn-bg-color);
 cursor: pointer;
@@ -260,69 +168,58 @@ cursor: pointer;
 
 /*photo blocks*/
 .card-title{
-    font-family: var(--primaly-font-family);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 36px;
-    letter-spacing: 0.06em;
-    color: var(--main-color);
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--main-color);
 }
 
 .card-text{
-    font-family: var(--primaly-font-family);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
-    color: var(--nav-color);
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--nav-color);
 }
 
-/*footer bar*/
-
-.bot{
-    background-color: #2F303A;
+.footer{
+background-color: #2F303A;
 }
 
-.bot-logo{
-    font-family:var(--secondary-font-family);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    color: var(--bckground-color);
-    text-decoration: none;
-}
-.bot-str{
-    font-family: var(--primaly-font-family);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: var(--bckground-color);
-    text-decoration: none;
-}
-.bot-mail{
-    font-family: var(--primaly-font-family);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: var(--bot-adress-color);
-    text-decoration: none;
-}
-.bot-number{
-    font-family: var(--primaly-font-family);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: var(--bot-adress-color);
-    text-decoration: none;
+.logo-footer{
+font-family:var(--secondary-font-family);
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: var(--bckground-color);
+text-decoration: none;
 }
 
+.street{
+font-family: var(--primaly-font-family);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: var(--bckground-color);
+text-decoration: none;
+}
+
+.contact-footer {
+font-family: var(--primaly-font-family);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--bot-adress-color);
+}
+
+.contact-footer:hover,
+.contact-footer:focus,
+.contact-footer:hover,
+.contact-footer:focus {
+color: var(--accent-color);
+}
