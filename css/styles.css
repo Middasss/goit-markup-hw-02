@@ -28,14 +28,6 @@ list-style: none;
 text-decoration: none;
 }
 
-.nav-link {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--main-color);
-}
-
 /*hero*/
 .hero{
 background-color: var(--box-color)
@@ -112,7 +104,6 @@ color: var(--accent-color);
 /*links*/
 .nav-link {
 font-weight: 500;
-font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--main-color);
@@ -133,10 +124,10 @@ font-style: normal;
 font-weight: 400px;
 }
 
-.contact-link {
+.footer .contact-link {
 font-style: normal;
 font-weight: 400px;
-color: var(--nav-color);
+color: var(--bot-adress-color)
 }
 
 .hide{
@@ -144,7 +135,6 @@ display: none;
 }
 
 /*buttons*/
-
 .portfolio-btn.current,
 .portfolio-btn:focus,
 .portfolio-btn:hover{
@@ -169,7 +159,7 @@ color: var(--nav-color);
 
 /*footer*/
 .footer{
-background-color: #2F303A;
+background-color: var(--box-color)
 }
 
 footer .logo{
