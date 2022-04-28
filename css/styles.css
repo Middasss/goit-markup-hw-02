@@ -28,7 +28,7 @@ list-style: none;
 text-decoration: none;
 }
 
-.nav {
+.nav-link {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -36,11 +36,12 @@ letter-spacing: 0.02em;
 color: var(--main-color);
 }
 
-.box{
+/*hero*/
+.hero{
 background-color: var(--box-color)
 }
 
-.box-title{
+.hero-title{
 color: var(--bckground-color);
 font-family: var(--primaly-font-family);
 font-weight: 900;
@@ -52,7 +53,7 @@ letter-spacing: 0.06em;
 
 /*button*/
 
-.button-text{
+.button {
 background-color: var(--accent-color);
 color: var(--bckground-color);
 font-family: var(--primaly-font-family);
@@ -62,6 +63,7 @@ line-height: 1.87;
 cursor: pointer;
 }
 
+/*benefits*/
 .benefits-title {
 font-size: 14px;
 line-height: 1.14;
@@ -74,15 +76,13 @@ line-height: 1.71;
 color: var(--nav-color);
 }
 
-.section-title{
+.about{
 font-size: 36px;
 line-height: 1.16;
 color: var(--main-color);
 }
 
 .team-title{
-font-family: var(--primaly-font-family);
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.1;
@@ -98,12 +98,11 @@ color: var(--nav-color);
 
 /* bar&logo*/
 
-.logo-header{
+.logo{
 color: var(--main-color);
 font-family: var(--secondary-font-family);
 font-size: 26px;
 line-height: 1.2;
-letter-spacing: 0.03em; 
 }
 
 .blue-color{
@@ -112,42 +111,17 @@ color: var(--accent-color);
 
 /*header*/
 
-.header-nav a:focus,
-.header-nav a:hover,
-.current {
-color: var(--accent-color);
-}
-
-.nav{
-font-style: normal;
+.nav-link,
+.contact-link,
+.adress-link {
 font-weight: 500;
-font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--main-color);
 }
 
-.nav a:focus,
-.nav a:hover,
-.current
-{
-color: var(--accent-color);
-}
-
-.contact-header {
-font-family: var(--primaly-font-family);
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+.contact-link {
 color: var(--nav-color);
-}
-
-.contact-header:focus,
-.contact-header:hover,
-.contact-header:focus {
-color: var(--accent-color);
 }
 
 .hide{
@@ -159,11 +133,8 @@ display: none;
 .portfolio-btn.current,
 .portfolio-btn:focus,
 .portfolio-btn:hover{
-font-size: 16px;
-line-height: 1.62;
 background-color: var(--accent-color);
 color: var(--btn-bg-color);
-cursor: pointer;
 }
 
 /*photo blocks*/
@@ -185,41 +156,25 @@ color: var(--nav-color);
 background-color: #2F303A;
 }
 
-.logo-footer{
-font-family:var(--secondary-font-family);
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
+footer .logo{
 color: var(--bckground-color);
-text-decoration: none;
 }
 
-.street{
-font-family: var(--primaly-font-family);
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
+.adress-link{
 color: var(--bckground-color);
-text-decoration: none;
-}
-
-.contact-footer {
-font-family: var(--primaly-font-family);
 font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--bot-adress-color);
+font-weight: 400px;
 }
 
-.contact-footer:hover,
-.contact-footer:focus,
-.contact-footer:hover,
-.contact-footer:focus {
+.contact-link{
+font-style: normal;
+font-weight: 400px;
+}
+
+.contact-link:focus,
+.contact-link:hover,
+.nav-link:focus,
+.nav-link:hover,
+.current {
 color: var(--accent-color);
 }
